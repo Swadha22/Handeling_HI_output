@@ -1,6 +1,6 @@
 # Python-Scripts
   
-  #From Homologous_Intron.pl output fetch intron containing genes
+# From Homologous_Intron.pl output fetch intron containing genes
 
       i = 0
       with open ("/home/roylab/swadha/phylogeny/nematodes_V2/step8_groupings/codons.txt", "r") as fname:
@@ -24,7 +24,7 @@
               g.close()
       fname.close()
 
-  #From Homologous_Intron.pl output fetch intronless containing genes
+# From Homologous_Intron.pl output fetch intronless containing genes
   
       import sys
       from collections import defaultdict
